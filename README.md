@@ -75,5 +75,17 @@ feature/monitoring
 feature/rollback
 
 ## Status
-
+this is how our 
+azure-devops-aks-cicd-poc/
+│
+├── app/
+├── azure-pipelines/
+│   ├── ci-pipeline.yml
+│   ├── cd-pipeline.yml
+│   └── templates/
+├── kubernetes/
+├── helm/
+├── scripts/
+├── docs/
+└── README.md
 🚧 Work in Progress
