@@ -88,4 +88,25 @@ azure-devops-aks-cicd-poc/
 ├── scripts/
 ├── docs/
 └── README.md
+
+Stage 1 - Build
+   ├── Checkout
+   ├── Install JDK
+   ├── Maven Build
+
+Stage 2 - Test
+   ├── Unit Tests
+
+Stage 3 - Code Quality
+   ├── SonarQube
+
+Stage 4 - Package
+   ├── Docker Build
+
+Stage 5 - Security
+   ├── Trivy Scan
+
+Stage 6 - Publish
+   ├── Push to ACR
+   ├── Publish Artifact
 🚧 Work in Progress
