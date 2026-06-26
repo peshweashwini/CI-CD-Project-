@@ -109,4 +109,12 @@ Stage 5 - Security
 Stage 6 - Publish
    ├── Push to ACR
    ├── Publish Artifact
+   | Decision              | Reason                                               |
+| --------------------- | ---------------------------------------------------- |
+| Separate CI and CD    | Independent build and deployment, artifact promotion |
+| Multi-stage pipeline  | Better visibility, troubleshooting, approvals        |
+| Versioned Docker tags | Easier rollback and traceability                     |
+| Azure Key Vault       | Secure secret management                             |
+| Helm                  | Easier configuration and versioned releases          |
+
 🚧 Work in Progress
