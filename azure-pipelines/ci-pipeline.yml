@@ -17,3 +17,13 @@ stages:
 
     - script: echo "Checkout completed"
       displayName: Checkout Code
+
+    - task: JavaToolInstaller@0
+      inputs:
+        versionSpec: '17'
+        jdkArchitectureOption: 'x64'
+        jdkSourceOption: 'PreInstalled'
+      displayName: Install Java 17
+
+    - script: java -version
+      displayName: Verify Java Version
