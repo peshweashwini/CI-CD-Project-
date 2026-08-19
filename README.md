@@ -1,5 +1,5 @@
 # CI-CD-Project-
-Enterprise CI/CD Pipeline using Azure DevOps, Docker &amp; AKS
+Enterprise CI/CD Pipeline using Azure DevOps, Docker &amp; Azure Kubernetes Service
 # Enterprise Azure DevOps CI/CD Pipeline POC
 
 ## Overview
